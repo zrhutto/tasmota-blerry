@@ -419,7 +419,8 @@ class Blerry_Device
       'GVH5183'         : 'blerry_driver_GVH5183.be',
       'GVH5184'         : 'blerry_driver_GVH5184.be',
       'WP6003'          : 'blerry_driver_WP6003.be',
-    }
+      'EufyC1'          : 'blerry_driver_EufyC1.be',
+      }
     var fn = model_drivers[self.config['model']]
     blerry_handle = def () return nil end
     blerry_active = false
